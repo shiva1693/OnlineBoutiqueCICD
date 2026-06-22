@@ -1,0 +1,33 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+*.tfvars.json
+*.tfplan
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+.terraform.tfstate.d/
+
+# Sensitive local files
+.env
+.env.*
+.aws/credentials
+
+# Editor directories and system files
+.vscode/
+.idea/
+*.iml
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Logs and backups
+*.log
+*.backup
