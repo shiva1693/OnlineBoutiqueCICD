@@ -16,6 +16,7 @@ override.tf.json
 .terraform.tfstate.d/
 .terraformrc
 backend.tfvars
+*.pem
 
 # Sensitive local files
 .env
