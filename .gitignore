@@ -7,17 +7,21 @@ terraform.tfstate
 terraform.tfstate.backup
 *.tfvars
 *.tfvars.json
+!*.example.tfvars
 *.tfplan
 crash.log
 override.tf
 override.tf.json
 *_override.tf
 .terraform.tfstate.d/
+.terraformrc
+backend.tfvars
 
 # Sensitive local files
 .env
 .env.*
 .aws/credentials
+.aws/config
 
 # Editor directories and system files
 .vscode/
