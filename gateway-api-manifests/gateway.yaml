@@ -21,7 +21,7 @@ spec:
         from: All
   - name: https
     protocol: HTTPS
-    hostname: "*.devopsdock.site"
+    hostname: "*.thezxcvbnm.online"
     port: 443
     allowedRoutes:
       namespaces:
